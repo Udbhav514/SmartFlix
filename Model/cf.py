@@ -84,9 +84,9 @@ st.header("Movie Recommender for a User")
 
 # Input user and movie ID
 u = st.text_input(
-    "Enter User Id (Refer [this](https://raw.githubusercontent.com/shoryasethia/AIC-Manager-Recruitment/main/Recommender-Systems/sample/small/reg_train.csv?token=GHSAT0AAAAAACPHZ2KRC7UXRRCDHK3VMXJSZQHDNUA)) ", key="user_input")
+    "Enter User Id (Refer [this](https://raw.githubusercontent.com/Udbhav514/CineMatch-Recommendation/master/sample/small/reg_train.csv)) ", key="user_input")
 m = st.text_input(
-    "Enter MovieId (Refer [this](https://raw.githubusercontent.com/shoryasethia/AIC-Manager-Recruitment/main/Recommender-Systems/sample/small/reg_train.csv?token=GHSAT0AAAAAACPHZ2KRC7UXRRCDHK3VMXJSZQHDNUA)) ", key="movie_input")
+    "Enter MovieId (Refer [this](https://raw.githubusercontent.com/Udbhav514/CineMatch-Recommendation/master/sample/small/reg_train.csv)) ", key="movie_input")
 
 # Button to suggest top 10 similar movies
 submit = st.button("Recommend Top 10 movies to User")
