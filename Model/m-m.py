@@ -28,7 +28,7 @@ st.header("Movie-Recommendation-System")
 
 # Input movie ID
 mv_id = st.text_input(
-    "Enter Movie Id (Refer [movie_titles.csv](https://github.com/shoryasethia/AIC-Manager-Recruitment/blob/main/Recommender-Systems/Netflix-Prize-Data/movie_titles.csv) for id) ", key="input")
+    "Enter Movie Id (Refer [movie_titles.csv](https://raw.githubusercontent.com/Udbhav514/CineMatch-Recommendation/master/Netflix-Prize-Data/movie_titles.csv) for id) ", key="input")
 
 # Button to suggest top 10 similar movies
 submit = st.button("Suggest Top 10 Similar movies")
