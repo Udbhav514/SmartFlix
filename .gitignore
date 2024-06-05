@@ -1,0 +1,6 @@
+# Python virtual environment
+Model/.env
+venv/
+.venv/
+env/
+.env/
