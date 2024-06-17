@@ -13,27 +13,6 @@ The project uses data from the Netflix Prize dataset available on [Kaggle](https
 
 The `combined_data_{i}.txt` files contain user ratings for movies, where each file starts with a movie ID followed by ratings from different users. The `movie_titles.csv` file contains the movie ID, year of release, and title.
 
-## Installation
-
-To run this project locally, follow these steps:
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/Udbhav514/SmartFlix.git
-    cd movie-recommender
-    ```
-
-2. Create a `.env` file to store environment variables (if needed):
-    ```bash
-    touch .env
-    ```
-
-## Usage
-
-To start the Streamlit app, run:
-```bash
-streamlit run cf.py
-
 ## Project Components
 
 ### cf.py
@@ -89,3 +68,27 @@ Based on the combined effect of user-user and movie-user collaborative filtering
 
 - Using the SVD matrix-factorization model for predicting Top 10 unwatched movies for a given user and a given watched movie.
 - Comparing my SVD model with the current state-of-the-art algorithm.
+
+
+
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Udbhav514/SmartFlix.git
+    cd movie-recommender
+    ```
+
+2. Create a `.env` file to store environment variables (if needed):
+    ```bash
+    touch .env
+    ```
+
+## Usage
+
+To start the Streamlit app, run:
+```bash
+streamlit run cf.py
