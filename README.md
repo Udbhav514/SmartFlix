@@ -15,15 +15,15 @@ The `combined_data_{i}.txt` files contain user ratings for movies, where each fi
 
 ## Project Components
 
-### cf.py
-The `cf.py` file includes the following key functions:
+### dep.py
+The `dep.py` file includes the following key functions:
 
 - `get_ratings(predictions)`: Extracts actual and predicted ratings from model predictions.
 - `get_errors(predictions, print_them=False)`: Calculates RMSE and MAPE from predictions.
 - `run_surprise(algo, trainset, testset, verbose=True)`: Trains and evaluates a Surprise model.
 
-### m-m.py
-The `m-m.py` file sets up the Streamlit app and includes the following main components:
+### movie.py
+The `movie.py` file sets up the Streamlit app and includes the following main components:
 
 - Streamlit configuration and header setup.
 - User input for movie ID.
@@ -91,4 +91,4 @@ To run this project locally, follow these steps:
 
 To start the Streamlit app, run:
 ```bash
-streamlit run cf.py
+streamlit run dep.py
