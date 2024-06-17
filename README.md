@@ -28,12 +28,11 @@ To run this project locally, follow these steps:
     touch .env
     ```
 
-### Usage
+## Usage
 
 To start the Streamlit app, run:
 ```bash
 streamlit run cf.py
-
 
 ## Project Components
 
