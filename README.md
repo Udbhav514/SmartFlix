@@ -35,7 +35,7 @@ The `movie-recommender.ipynb` notebook includes:
 - Data overview and exploration.
 - Preliminary analysis of the Netflix Prize dataset.
 
-
+This project was inspired by concepts learned from the Scalar Academy course on Recommendation Systems
 
 ### Collaborative Filtering
 Based on the combined effect of user-user and movie-user collaborative filtering.
@@ -92,7 +92,3 @@ To start the Streamlit app, run:
 ```bash
 streamlit run dep.py
 
-
-
-### Inspiration
-This project was inspired by concepts learned from the Scalar Academy course on Recommendation Systems
