@@ -94,8 +94,5 @@ Based on the combined effect of user-user and movie-user collaborative filtering
 - Comparing my SVD model with the current state-of-the-art algorithm.
 
 
-
-
-
 ### Inspiration
-This project was inspired by concepts learned from the Scalar Academy course on [Course Name]
+This project was inspired by concepts learned from the Scalar Academy course on Recommendation Systems
