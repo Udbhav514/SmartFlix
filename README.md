@@ -35,6 +35,30 @@ The `movie-recommender.ipynb` notebook includes:
 - Data overview and exploration.
 - Preliminary analysis of the Netflix Prize dataset.
 
+
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Udbhav514/SmartFlix.git
+    cd movie-recommender
+    ```
+
+2. Create a `.env` file to store environment variables (if needed):
+    ```bash
+    touch .env
+    ```
+
+## Usage
+
+To start the Streamlit app, run:
+```bash
+streamlit run dep.py
+
+
 ### Collaborative Filtering
 Based on the combined effect of user-user and movie-user collaborative filtering.
 
@@ -72,23 +96,6 @@ Based on the combined effect of user-user and movie-user collaborative filtering
 
 
 
-## Installation
 
-To run this project locally, follow these steps:
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/Udbhav514/SmartFlix.git
-    cd movie-recommender
-    ```
-
-2. Create a `.env` file to store environment variables (if needed):
-    ```bash
-    touch .env
-    ```
-
-## Usage
-
-To start the Streamlit app, run:
-```bash
-streamlit run dep.py
+### Inspiration
+This project was inspired by concepts learned from the Scalar Academy course on [Course Name]
