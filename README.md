@@ -49,21 +49,6 @@ Based on the combined effect of user-user and movie-user collaborative filtering
 - Validating that matrix-factorization models are superior to classic nearest-neighbor techniques for producing product recommendations.
 - Minimizing the difference between predicted and actual ratings via two performance metrics: RMSE and MAPE.
 
-### 3. Part 3
-### Model RMSE
-
-| Model          | RMSE              |
-|----------------|-------------------|
-| svd            | 1.0821912114098393|
-| knn_bsl_m      | 1.0821949464872673|
-| bsl_algo       | 1.0822513101982842|
-| knn_bsl_u      | 1.0822531134111517|
-| svdpp          | 1.0822543401393163|
-| first_algo     | 1.1075854286551927|
-| xgb_knn_bsl    | 1.11901091975606  |
-| xgb_bsl        | 1.1234619836629212|
-| xgb_final      | 1.1234619836629212|
-| xgb_all_models | 1.1367862682953647|
 
 ### Part 3: SVD Model Comparison
 
